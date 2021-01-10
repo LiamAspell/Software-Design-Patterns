@@ -1,0 +1,10 @@
+<svg version='1.1' xmlns = 'http://www.w3.org/2000/svg' height= '1000' width= '1000'>
+<polygon points = '174,867 ' stroke-width= '1' fill= 'red' stroke= 'yellow' />
+<polygon points = '352,957 756,206 ' stroke-width= '0' fill= 'yellow' stroke= 'yellow' />
+<ellipse cx='997' cy='102' rx='376' ry='929' stroke-width= '9' fill= 'blue' stroke= 'red' />
+<ellipse cx='181' cy='424' rx='157' ry='562' stroke-width= '7' fill= 'yellow' stroke= 'yellow' />
+<rect x= '258' y= '102' width= '819' height= '12' stroke-width= '0' fill= 'yellow' stroke= 'green' />
+<rect x= '255' y= '636' width= '214' height= '59' stroke-width= '5' fill= 'red' stroke= 'orange' />
+<polyline points = '300,36 459,744 717,2 ' stroke-width= '3' fill= 'blue' stroke= 'pink' />
+<polygon points = '480,101 3,557 445,859 357,' stroke-width= '8' fill= 'yellow' stroke= 'yellow' />
+</svg>

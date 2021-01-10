@@ -1,0 +1,13 @@
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\bin\Debug\netcoreapp3.1\Assignment5Sub.exe
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\bin\Debug\netcoreapp3.1\Assignment5Sub.deps.json
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\bin\Debug\netcoreapp3.1\Assignment5Sub.runtimeconfig.json
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\bin\Debug\netcoreapp3.1\Assignment5Sub.runtimeconfig.dev.json
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\bin\Debug\netcoreapp3.1\Assignment5Sub.dll
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\bin\Debug\netcoreapp3.1\Assignment5Sub.pdb
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\obj\Debug\netcoreapp3.1\Assignment5Sub.csprojAssemblyReference.cache
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\obj\Debug\netcoreapp3.1\Assignment5Sub.AssemblyInfoInputs.cache
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\obj\Debug\netcoreapp3.1\Assignment5Sub.AssemblyInfo.cs
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\obj\Debug\netcoreapp3.1\Assignment5Sub.csproj.CoreCompileInputs.cache
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\obj\Debug\netcoreapp3.1\Assignment5Sub.dll
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\obj\Debug\netcoreapp3.1\Assignment5Sub.pdb
+C:\Users\Liam Aspell\Desktop\Assignment5Sub\obj\Debug\netcoreapp3.1\Assignment5Sub.genruntimeconfig.cache

@@ -1,0 +1,119 @@
+@startuml
+abstract class ShapeCreator {
+    + {abstract} FactoryMethod() : IShape
+    + declareShape() : string
+}
+class RectangleFactory {
+    + <<override>> FactoryMethod() : IShape
+}
+class CircleFactory {
+    + <<override>> FactoryMethod() : IShape
+}
+class LineFactory {
+    + <<override>> FactoryMethod() : IShape
+}
+class EllipseFactory {
+    + <<override>> FactoryMethod() : IShape
+}
+class PolygonFactory {
+    + <<override>> FactoryMethod() : IShape
+}
+class PolylineFactory {
+    + <<override>> FactoryMethod() : IShape
+}
+class PathFactory {
+    + <<override>> FactoryMethod() : IShape
+}
+interface IShape {
+    + Operation() : String
+}
+class RectangleShape {
+    + X : int <<get>>
+    + Y : int <<get>>
+    + W : int <<get>>
+    + H : int <<get>>
+    + strokeWidth : int <<get>>
+    + Operation() : string
+}
+class CircleShape {
+    + X : int <<get>>
+    + Y : int <<get>>
+    + R : int <<get>>
+    + strokeWidth : int <<get>>
+    + Operation() : String
+}
+class EllipseShape {
+    + xRadius : int <<get>> <<set>>
+    + yRadius : int <<get>> <<set>>
+    + xCentre : int <<get>> <<set>>
+    + yCentre : int <<get>> <<set>>
+    + strokeWidth : int <<get>>
+    + Operation() : string
+}
+class LineShape {
+    + x1 : int <<get>> <<set>>
+    + y1 : int <<get>> <<set>>
+    + x2 : int <<get>> <<set>>
+    + y2 : int <<get>> <<set>>
+    + strokeWidth : int <<get>>
+    + Operation() : string
+}
+class PolygonShape {
+    + strokeWidth : int <<get>>
+    + Operation() : string
+}
+class PolylineShape {
+    + strokeWidth : int <<get>>
+    + Operation() : string
+}
+class PathShape {
+    + strokeWidth : int <<get>>
+    + Operation() : string
+}
+class ShapeClient {
+    + ClientCode(creator:ShapeCreator) : String
+    + Main(type:string) : String
+}
+class Program {
+    {static} Main(args:string[]) : void
+    + {static} quitApp() : void
+    + {static} writeFile(Canvas:Stack<String>) : void
+}
+ShapeCreator <|-- RectangleFactory
+ShapeCreator <|-- CircleFactory
+ShapeCreator <|-- LineFactory
+ShapeCreator <|-- EllipseFactory
+ShapeCreator <|-- PolygonFactory
+ShapeCreator <|-- PolylineFactory
+ShapeCreator <|-- PathFactory
+IShape <|-- RectangleShape
+RectangleShape o-> "rnd" Random
+RectangleShape --> "fill" String
+RectangleShape --> "stroke" String
+IShape <|-- CircleShape
+CircleShape o-> "rnd" Random
+CircleShape --> "fill" String
+CircleShape --> "stroke" String
+IShape <|-- EllipseShape
+EllipseShape o-> "rnd" Random
+EllipseShape --> "fill" String
+EllipseShape --> "stroke" String
+IShape <|-- LineShape
+LineShape o-> "rnd" Random
+LineShape --> "fill" String
+LineShape --> "stroke" String
+IShape <|-- PolygonShape
+PolygonShape o-> "rnd" Random
+PolygonShape --> "fill" String
+PolygonShape --> "stroke" String
+IShape <|-- PolylineShape
+PolylineShape o-> "rnd" Random
+PolylineShape o-> "r" String
+PolylineShape --> "fill" String
+PolylineShape --> "stroke" String
+IShape <|-- PathShape
+PathShape o-> "rnd" Random
+PathShape --> "fill" String
+PathShape --> "stroke" String
+PathShape o-> "r" String
+@enduml
