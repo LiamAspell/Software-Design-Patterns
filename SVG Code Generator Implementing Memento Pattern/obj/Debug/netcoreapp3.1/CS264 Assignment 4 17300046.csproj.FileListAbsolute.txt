@@ -1,0 +1,13 @@
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\bin\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.exe
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\bin\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.deps.json
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\bin\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.runtimeconfig.json
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\bin\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.runtimeconfig.dev.json
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\bin\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.dll
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\bin\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.pdb
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\obj\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.csprojAssemblyReference.cache
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\obj\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.AssemblyInfoInputs.cache
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\obj\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.AssemblyInfo.cs
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\obj\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.csproj.CoreCompileInputs.cache
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\obj\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.dll
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\obj\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.pdb
+C:\Users\liama\Desktop\CS264 Assignment 4 17300046\obj\Debug\netcoreapp3.1\CS264 Assignment 4 17300046.genruntimeconfig.cache

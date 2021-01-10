@@ -1,0 +1,111 @@
+@startuml
+class Program {
+    {static} Main(args:string[]) : void
+    + {static} addShape(input:String, Canvas:String) : String
+    + {static} randomList() : List<int>
+    + {static} buildFile(o:Originator) : void
+    + {static} printState(o:Originator) : void
+    + {static} quitApp() : void
+}
+class CareTaker {
+    + CareTaker()
+    + addMemento(m:Memento) : void
+    + getMemento(index:int) : Memento
+    + undo() : Memento
+    + redo() : Memento
+}
+class Originator {
+    + Originator()
+    + setArticle(article:String) : void
+    + getArticle() : String
+    + save() : Memento
+    + restore(m:Memento) : void
+}
+class Memento {
+    + state : string
+    + Memento(state:String)
+    + getState() : String
+    + setState(state:String) : void
+}
+class Shape {
+    + fill : string <<get>> <<set>>
+    + stroke : string <<get>> <<set>>
+    + strokeWidth : string <<get>> <<set>>
+    + style(fill:string, stroke:string, strokeWidth:string) : string
+}
+class Rectangle {
+    + X : int <<get>>
+    + Y : int <<get>>
+    + W : int <<get>>
+    + H : int <<get>>
+    + Rectangle(x:int, y:int, w:int, h:int, f:string)
+    + <<override>> ToString() : string
+}
+class Circle {
+    + X : int <<get>> <<set>>
+    + Y : int <<get>> <<set>>
+    + R : int <<get>> <<set>>
+    + Circle(x:int, y:int, r:int, f:string)
+    + <<override>> ToString() : string
+}
+class Ellipse {
+    + xRadius : int <<get>> <<set>>
+    + yRadius : int <<get>> <<set>>
+    + xCentre : int <<get>> <<set>>
+    + yCentre : int <<get>> <<set>>
+    + Ellipse(xr:int, yr:int, xc:int, yc:int, f:string)
+    + <<override>> ToString() : string
+}
+class Line {
+    + xPos1 : int <<get>> <<set>>
+    + yPos1 : int <<get>> <<set>>
+    + xPos2 : int <<get>> <<set>>
+    + yPos2 : int <<get>> <<set>>
+    + Line(x1:int, y1:int, x2:int, y2:int, s:string)
+    + <<override>> ToString() : string
+}
+class Polyline {
+    + Polyline(Ppoints:List <int>, s:string)
+    + <<override>> ToString() : string
+}
+class Polygon {
+    + Polygon(pPoints:List <int>, s:string, f:string)
+    + <<override>> ToString() : string
+}
+class Path {
+    + input : string <<get>> <<set>>
+    + Path(i:string, f:string)
+    + <<override>> ToString() : string
+}
+class Text {
+    + xPos : int <<get>> <<set>>
+    + yPos : int <<get>> <<set>>
+    + text : string <<get>> <<set>>
+    + Text(x:int, y:int, t:string)
+    + <<override>> ToString() : string
+}
+class "List`1"<T> {
+}
+Program +-- CareTaker
+Program +-- Originator
+Program +-- Memento
+Program +-- Shape
+Program +-- Rectangle
+Shape <|-- Rectangle
+Program +-- Circle
+Shape <|-- Circle
+Program +-- Ellipse
+Shape <|-- Ellipse
+Program +-- Line
+Shape <|-- Line
+Program +-- Polyline
+Shape <|-- Polyline
+Polyline --> "PolyLinePoints<int>" "List`1"
+Program +-- Polygon
+Shape <|-- Polygon
+Polygon --> "PolygonPoints<int>" "List`1"
+Program +-- Path
+Shape <|-- Path
+Program +-- Text
+Shape <|-- Text
+@enduml
